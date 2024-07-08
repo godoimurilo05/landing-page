@@ -22,10 +22,12 @@ header {
 .navbar {
     display: flex;
     flex-direction: row;
-    margin: 0px 1.5rem 6rem 1.5rem;
-    gap: 45rem;
-    padding: 1.5rem;
+    margin: auto;
+    justify-content: space-between;
     align-items: center;
+    width: 70%;
+    margin-bottom: 7em;
+    padding-top:1em;
 }
 
 .navbar h2 {
@@ -41,4 +43,41 @@ header {
 .navbar a {
     font-size: 18px;
     color: #e5e7eb
+}
+
+.hero{
+    width: 70%;
+    margin: auto;
+    margin-top: 5em;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.conteudo{
+    width: 50%;
+}
+
+.hero .conteudo h1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.hero .conteudo p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 1.5rem;
+}
+
+.hero .conteudo button{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    font-size: 18px;
+
 }
