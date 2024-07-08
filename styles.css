@@ -92,12 +92,12 @@ header {
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
-    margin-bottom: 1rem;
 }
 
 .main__content .cards{
     width: 100%;
     height: 40vh;
+    margin-top:1rem;
 }
 
 .main__content .cards ul{
@@ -107,6 +107,7 @@ header {
     margin: auto;
     margin-bottom: 20px;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .main__content .cards img{
@@ -147,3 +148,49 @@ header {
     margin-top: 1rem;
     font-weight: bolder;
 }
+
+.main__content .login__container{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__content .login__container .login__main__container{
+    width: 70%;
+    background-color: #3882f6 ;
+    margin: auto;
+    height: 8rem;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__content .login__container .login__main__container .login__text{
+    margin-left: 8rem;
+}
+
+.main__content .login__container .login__main__container .login__text h3{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main__content .login__container .login__main__container .login__text p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main__content .login__container .login__main__container button{
+    margin-right: 8rem;
+    width: 9rem;
+    height: 2.5rem;
+    border: 2.5px solid #f9faf8;
+    border-radius: 7px;
+    background-color: transparent;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
